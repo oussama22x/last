@@ -2,10 +2,10 @@ CC = cc
 CFLAGS =  #-fsanitize=address  -g3 #-Wall -Werror -Wextra -fsanitize=address -g3
 RM = rm -f
 PATH = /Users/oelboukh/Desktop/parsing/cub3d_pars
-FILES = lunchmap.c cub3d.c $(PATH)/parsing.c $(PATH)/texters.c $(PATH)/more_files.c $(PATH)/libft/ft_bzero.c \
-        $(PATH)/libft/ft_strjoin.c $(PATH)/libft/ft_atoi.c $(PATH)/libft/ft_strlen.c $(PATH)/libft/ft_calloc.c \
-        $(PATH)/libft/ft_split.c $(PATH)/libft/ft_strdup.c   $(PATH)/libft/ft_strnstr.c $(PATH)/libft/ft_strchr.c \
-         $(PATH)/file.c $(PATH)/get_line/get_next_line.c
+FILES = lunchmap.c cub3d.c ../parsing.c ../texters.c ../more_files.c ../libft/ft_bzero.c \
+        ../libft/ft_strjoin.c ../libft/ft_atoi.c ../libft/ft_strlen.c ../libft/ft_calloc.c \
+        ../libft/ft_split.c ../libft/ft_strdup.c   ../libft/ft_strnstr.c ../libft/ft_strchr.c \
+         ../file.c ../get_line/get_next_line.c
 OBJ = $(FILES:.c=.o)
 NAME = cub3d
 
